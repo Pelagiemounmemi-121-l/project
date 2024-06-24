@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 type Props={}
 
 export default function page({}: Props){
+
+  
 return(
   <>
   <head>
@@ -11,11 +14,13 @@ return(
   </head>
    <ul className='menu'>
     <li><a href="/acceuil">acceuil</a></li>
-    <li><a href="/about">apropos</a></li>
+    <li><a href="/apropos">apropos</a></li>
     <li><a href="/blog">blog</a></li>
    </ul>
-   <h1> <i className="fas fa-home "></i>TOLIST</h1>
+   
    </>
 )
 
 }
+
+

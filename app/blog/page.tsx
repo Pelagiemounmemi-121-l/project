@@ -15,7 +15,7 @@ return(
     <li><a href="/about">apropos</a></li>
     <li><a href="/blog">blog</a></li>
    </ul>
-   <h1><i className="fas fa-home "></i> bienvenue sur votre blog</h1>
+   <h1 className='component'><i className="fas fa-home "></i> bienvenue sur votre blog</h1>
    </>
 )
 
